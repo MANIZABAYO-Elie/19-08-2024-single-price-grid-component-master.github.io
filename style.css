@@ -1,0 +1,122 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@500,700&display=swap');
+*{
+  font-size: 16px;  
+}
+body{
+font-size: 16px;
+background-color: hsl(204, 43%, 93%);
+text-align: center;
+line-height: 25px;
+font-family: 'karla',sans-serif;
+padding: 20px;
+margin: 0;
+min-height: 100vh;
+box-shadow: 0 5px 10px  hsl(204, 43%, 93%) ;
+}
+
+.container{
+    max-width: 600px;
+    justify-content: center; 
+    align-items: center;  
+    margin: 0 auto; 
+    font-family: 'karla',sans-serif;
+    border-radius: 10px;
+}
+
+.discount{
+    background-color: white;
+    justify-content: center; 
+    align-items: center;     
+    padding-left: 30px; 
+    text-align: start;
+    padding-bottom: 30px;
+    padding-right: 40px;
+
+}
+
+.discount h1{
+    color: hsl(179, 62%, 43%);
+    padding-top: 20px;
+}
+.discount h2{
+    color: hsl(71, 73%, 54%);
+}
+
+.discount p{
+    color:  hsl(218, 22%, 67%);
+}
+
+.price_details{
+    display: flex; 
+    color: white;
+}
+
+.subscription{
+    text-align: start;
+    background-color:hsl(179, 62%, 43%);
+    position: relative;
+    margin: 0;
+    padding-left: 40px;
+    padding-top: 30px;
+    padding-right: 30px;
+    line-height: 25px;
+}
+
+.price{
+    color:hsl(179, 43%,75%) ;
+}
+
+.subscription span{
+    font-size: 40px;
+    color: white;
+    margin-right: 10px;
+}
+.subscription p{
+    margin-top: 20px;
+}
+.our-mission{
+    text-align: start;
+    background-color:hsl(179, 47%, 52%);
+    padding-left: 40px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    padding-right: 55px;
+}
+
+.button {
+    font-size: 18px;
+    color: white;
+    background-color:  hsl(71, 73%, 54%);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    font-weight: 700;
+    margin-top: 15px;
+    padding: 20px 0;
+    box-shadow: 0 5px 10px 10px rgba(0,0, 0.5,);
+    height: 40px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+    opacity:0.7;
+}
+ul li{
+    line-height: 28px;
+}
+@media screen and (max-width: 600px){
+    .price_details{
+          flex-direction: column;
+    }
+
+};
+    
